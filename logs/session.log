@@ -1,0 +1,168 @@
+2026-07-02 09:39:20 | INFO     | OrchestratorAgent        | === Orchestrator starting for BTC ===
+2026-07-02 09:39:20 | INFO     | OrchestratorAgent        | Running pipeline for BTC
+2026-07-02 09:39:20 | INFO     | MarketSearchAgent        | Starting market search for BTC
+2026-07-02 09:39:20 | INFO     | MarketSearchAgent        | Searching Polymarket for 'btc'
+2026-07-02 09:39:20 | INFO     | OHLCVFetcherAgent        | Fetching 300 1m bars for BTC
+2026-07-02 09:39:20 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for BTC via Apify
+2026-07-02 09:39:20 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'BTC', 'tsym': 'USD', 'limit': 300, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:39:22 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:39:22 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:39:22 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for BTC via ccxt (Binance)
+2026-07-02 09:39:24 | INFO     | OHLCVFetcherAgent        | Fetching 500 5m bars for BTC
+2026-07-02 09:39:24 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for BTC via Apify
+2026-07-02 09:39:24 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'BTC', 'tsym': 'USD', 'limit': 500, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:39:25 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:39:25 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:39:25 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for BTC via ccxt (Binance)
+2026-07-02 09:39:25 | INFO     | OHLCVFetcherAgent        | Fetching 200 15m bars for BTC
+2026-07-02 09:39:25 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for BTC via Apify
+2026-07-02 09:39:25 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'BTC', 'tsym': 'USD', 'limit': 200, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:39:26 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:39:26 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:39:26 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for BTC via ccxt (Binance)
+2026-07-02 09:39:27 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:39:27 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for BTC
+2026-07-02 09:39:27 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:39:27 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for BTC
+2026-07-02 09:39:27 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:39:27 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for BTC
+2026-07-02 09:39:41 | WARNING  | MarketSearchAgent        | Polymarket search failed: 
+2026-07-02 09:39:41 | INFO     | MarketSearchAgent        | Searching Kalshi for 'bitcoin'
+2026-07-02 09:39:54 | INFO     | OrchestratorAgent        | === Orchestrator starting for BTC ===
+2026-07-02 09:39:54 | INFO     | OrchestratorAgent        | Running pipeline for BTC
+2026-07-02 09:39:54 | INFO     | MarketSearchAgent        | Starting market search for BTC
+2026-07-02 09:39:54 | INFO     | MarketSearchAgent        | Searching Polymarket for 'btc'
+2026-07-02 09:39:55 | INFO     | OHLCVFetcherAgent        | Fetching 300 1m bars for BTC
+2026-07-02 09:39:55 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for BTC via Apify
+2026-07-02 09:39:55 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'BTC', 'tsym': 'USD', 'limit': 300, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:39:56 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:39:56 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:39:56 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for BTC via ccxt (Binance)
+2026-07-02 09:39:56 | INFO     | OHLCVFetcherAgent        | Fetching 500 5m bars for BTC
+2026-07-02 09:39:56 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for BTC via Apify
+2026-07-02 09:39:56 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'BTC', 'tsym': 'USD', 'limit': 500, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:39:56 | WARNING  | MarketSearchAgent        | Kalshi search failed: 
+2026-07-02 09:39:56 | INFO     | MarketSearchAgent        | Found 0 Polymarket + 0 Kalshi markets for BTC
+2026-07-02 09:39:56 | WARNING  | MarketSearchAgent        | No markets found for BTC, using neutral 50/50
+2026-07-02 09:39:56 | INFO     | OrchestratorAgent        | Feedback round 1 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:39:56 | INFO     | OrchestratorAgent        | Feedback round 2 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:39:56 | INFO     | OrchestratorAgent        | Feedback round 3 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:39:56 | INFO     | OrchestratorAgent        | Consensus after 3 feedback rounds: NEUTRAL (conf=50.0%)
+2026-07-02 09:39:56 | INFO     | KellyRiskAgent           | Kelly risk computation for BTC | dir=NEUTRAL | p_win=50.0%
+2026-07-02 09:39:56 | INFO     | KellyRiskAgent           | Kelly: full=0.0%, recommended=0.0% ($0)
+2026-07-02 09:39:56 | DEBUG    | OrchestratorAgent        | LLM loop iteration 1/6
+2026-07-02 09:39:57 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:39:57 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:39:57 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for BTC via ccxt (Binance)
+2026-07-02 09:39:57 | INFO     | OHLCVFetcherAgent        | Fetching 200 15m bars for BTC
+2026-07-02 09:39:57 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for BTC via Apify
+2026-07-02 09:39:57 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'BTC', 'tsym': 'USD', 'limit': 200, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:39:58 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:39:58 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:39:58 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for BTC via ccxt (Binance)
+2026-07-02 09:39:59 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:39:59 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for BTC
+2026-07-02 09:39:59 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:39:59 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for BTC
+2026-07-02 09:39:59 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:39:59 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for BTC
+2026-07-02 09:40:01 | WARNING  | OrchestratorAgent        | LLM narrative failed: RetryError[<Future at 0x26401f7dc70 state=finished raised AuthenticationError>]
+2026-07-02 09:40:01 | INFO     | OrchestratorAgent        | === FINAL SIGNAL for BTC: NEUTRAL (50.0%) | Action: HOLD — low confidence ===
+2026-07-02 09:40:01 | INFO     | OrchestratorAgent        | === Orchestrator starting for ETH ===
+2026-07-02 09:40:01 | INFO     | OrchestratorAgent        | Running pipeline for ETH
+2026-07-02 09:40:01 | INFO     | MarketSearchAgent        | Starting market search for ETH
+2026-07-02 09:40:01 | INFO     | MarketSearchAgent        | Searching Polymarket for 'eth'
+2026-07-02 09:40:01 | INFO     | OHLCVFetcherAgent        | Fetching 300 1m bars for ETH
+2026-07-02 09:40:01 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for ETH via Apify
+2026-07-02 09:40:01 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'ETH', 'tsym': 'USD', 'limit': 300, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:40:03 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:40:03 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:40:03 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for ETH via ccxt (Binance)
+2026-07-02 09:40:03 | INFO     | OHLCVFetcherAgent        | Fetching 500 5m bars for ETH
+2026-07-02 09:40:03 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for ETH via Apify
+2026-07-02 09:40:03 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'ETH', 'tsym': 'USD', 'limit': 500, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:40:04 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:40:04 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:40:04 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for ETH via ccxt (Binance)
+2026-07-02 09:40:04 | INFO     | OHLCVFetcherAgent        | Fetching 200 15m bars for ETH
+2026-07-02 09:40:04 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for ETH via Apify
+2026-07-02 09:40:04 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'ETH', 'tsym': 'USD', 'limit': 200, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:40:05 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:40:05 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:40:05 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for ETH via ccxt (Binance)
+2026-07-02 09:40:06 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:40:06 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for ETH
+2026-07-02 09:40:06 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:40:06 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for ETH
+2026-07-02 09:40:06 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:40:06 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for ETH
+2026-07-02 09:40:13 | WARNING  | MarketSearchAgent        | Polymarket search failed: 
+2026-07-02 09:40:13 | INFO     | MarketSearchAgent        | Searching Kalshi for 'bitcoin'
+2026-07-02 09:40:20 | WARNING  | MarketSearchAgent        | Polymarket search failed: 
+2026-07-02 09:40:20 | INFO     | MarketSearchAgent        | Searching Kalshi for 'ethereum'
+2026-07-02 09:40:29 | WARNING  | MarketSearchAgent        | Kalshi search failed: 
+2026-07-02 09:40:29 | INFO     | MarketSearchAgent        | Found 0 Polymarket + 0 Kalshi markets for BTC
+2026-07-02 09:40:29 | WARNING  | MarketSearchAgent        | No markets found for BTC, using neutral 50/50
+2026-07-02 09:40:29 | INFO     | OrchestratorAgent        | Feedback round 1 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:40:29 | INFO     | OrchestratorAgent        | Feedback round 2 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:40:29 | INFO     | OrchestratorAgent        | Feedback round 3 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:40:29 | INFO     | OrchestratorAgent        | Consensus after 3 feedback rounds: NEUTRAL (conf=50.0%)
+2026-07-02 09:40:29 | INFO     | KellyRiskAgent           | Kelly risk computation for BTC | dir=NEUTRAL | p_win=50.0%
+2026-07-02 09:40:29 | INFO     | KellyRiskAgent           | Kelly: full=0.0%, recommended=0.0% ($0)
+2026-07-02 09:40:29 | DEBUG    | OrchestratorAgent        | LLM loop iteration 1/6
+2026-07-02 09:40:35 | WARNING  | OrchestratorAgent        | LLM narrative failed: RetryError[<Future at 0x2647e162ff0 state=finished raised AuthenticationError>]
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | === FINAL SIGNAL for BTC: NEUTRAL (50.0%) | Action: HOLD — low confidence ===
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | === Orchestrator starting for ETH ===
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | Running pipeline for ETH
+2026-07-02 09:40:35 | INFO     | MarketSearchAgent        | Starting market search for ETH
+2026-07-02 09:40:35 | INFO     | MarketSearchAgent        | Searching Polymarket for 'eth'
+2026-07-02 09:40:35 | WARNING  | MarketSearchAgent        | Kalshi search failed: 
+2026-07-02 09:40:35 | INFO     | MarketSearchAgent        | Found 0 Polymarket + 0 Kalshi markets for ETH
+2026-07-02 09:40:35 | WARNING  | MarketSearchAgent        | No markets found for ETH, using neutral 50/50
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | Feedback round 1 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | Feedback round 2 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | Feedback round 3 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:40:35 | INFO     | OrchestratorAgent        | Consensus after 3 feedback rounds: NEUTRAL (conf=50.0%)
+2026-07-02 09:40:35 | INFO     | KellyRiskAgent           | Kelly risk computation for ETH | dir=NEUTRAL | p_win=50.0%
+2026-07-02 09:40:35 | INFO     | KellyRiskAgent           | Kelly: full=0.0%, recommended=0.0% ($0)
+2026-07-02 09:40:35 | DEBUG    | OrchestratorAgent        | LLM loop iteration 1/6
+2026-07-02 09:40:35 | INFO     | OHLCVFetcherAgent        | Fetching 300 1m bars for ETH
+2026-07-02 09:40:35 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for ETH via Apify
+2026-07-02 09:40:35 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'ETH', 'tsym': 'USD', 'limit': 300, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:40:36 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:40:36 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:40:36 | INFO     | OHLCVFetcherAgent        | Fetching 300 bars for ETH via ccxt (Binance)
+2026-07-02 09:40:36 | INFO     | OHLCVFetcherAgent        | Fetching 500 5m bars for ETH
+2026-07-02 09:40:36 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for ETH via Apify
+2026-07-02 09:40:36 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'ETH', 'tsym': 'USD', 'limit': 500, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:40:37 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:40:37 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:40:37 | INFO     | OHLCVFetcherAgent        | Fetching 500 bars for ETH via ccxt (Binance)
+2026-07-02 09:40:37 | INFO     | OHLCVFetcherAgent        | Fetching 200 15m bars for ETH
+2026-07-02 09:40:37 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for ETH via Apify
+2026-07-02 09:40:37 | DEBUG    | OHLCVFetcherAgent        | Starting Apify actor with input: {'fsym': 'ETH', 'tsym': 'USD', 'limit': 200, 'aggregate': 1, 'type': 'histominute'}
+2026-07-02 09:40:38 | ERROR    | OHLCVFetcherAgent        | Apify API error: User was not found or authentication token is not valid
+2026-07-02 09:40:38 | WARNING  | OHLCVFetcherAgent        | Apify returned no bars — falling back to ccxt
+2026-07-02 09:40:38 | INFO     | OHLCVFetcherAgent        | Fetching 200 bars for ETH via ccxt (Binance)
+2026-07-02 09:40:39 | WARNING  | OrchestratorAgent        | LLM narrative failed: RetryError[<Future at 0x26401ce28d0 state=finished raised AuthenticationError>]
+2026-07-02 09:40:39 | INFO     | OrchestratorAgent        | === FINAL SIGNAL for ETH: NEUTRAL (50.0%) | Action: HOLD — low confidence ===
+2026-07-02 09:40:39 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:40:39 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for ETH
+2026-07-02 09:40:39 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:40:39 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for ETH
+2026-07-02 09:40:39 | ERROR    | OHLCVFetcherAgent        | ccxt fetch failed: binance GET https://api.binance.com/api/v3/exchangeInfo
+2026-07-02 09:40:39 | ERROR    | OHLCVFetcherAgent        | Both Apify and ccxt failed to return bars for ETH
+2026-07-02 09:40:53 | WARNING  | MarketSearchAgent        | Polymarket search failed: 
+2026-07-02 09:40:53 | INFO     | MarketSearchAgent        | Searching Kalshi for 'ethereum'
+2026-07-02 09:41:09 | WARNING  | MarketSearchAgent        | Kalshi search failed: 
+2026-07-02 09:41:09 | INFO     | MarketSearchAgent        | Found 0 Polymarket + 0 Kalshi markets for ETH
+2026-07-02 09:41:09 | WARNING  | MarketSearchAgent        | No markets found for ETH, using neutral 50/50
+2026-07-02 09:41:09 | INFO     | OrchestratorAgent        | Feedback round 1 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:41:09 | INFO     | OrchestratorAgent        | Feedback round 2 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:41:09 | INFO     | OrchestratorAgent        | Feedback round 3 — confidence 50.0% below threshold 60.0%
+2026-07-02 09:41:09 | INFO     | OrchestratorAgent        | Consensus after 3 feedback rounds: NEUTRAL (conf=50.0%)
+2026-07-02 09:41:09 | INFO     | KellyRiskAgent           | Kelly risk computation for ETH | dir=NEUTRAL | p_win=50.0%
+2026-07-02 09:41:09 | INFO     | KellyRiskAgent           | Kelly: full=0.0%, recommended=0.0% ($0)
+2026-07-02 09:41:09 | DEBUG    | OrchestratorAgent        | LLM loop iteration 1/6
+2026-07-02 09:41:13 | WARNING  | OrchestratorAgent        | LLM narrative failed: RetryError[<Future at 0x2647ca2c0e0 state=finished raised AuthenticationError>]
+2026-07-02 09:41:13 | INFO     | OrchestratorAgent        | === FINAL SIGNAL for ETH: NEUTRAL (50.0%) | Action: HOLD — low confidence ===

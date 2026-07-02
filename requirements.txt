@@ -1,0 +1,38 @@
+# ─── Core ─────────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+httpx>=0.27.0
+aiohttp>=3.9.0
+tenacity>=8.2.3
+
+# ─── LLM / Hermes-style agent ─────────────────────────────────────────────────
+openai>=1.30.0          # OpenRouter uses OpenAI-compatible API
+
+# ─── Data / OHLCV ─────────────────────────────────────────────────────────────
+apify-client>=1.7.0
+ccxt>=4.3.0             # Fallback OHLCV fetcher
+pandas>=2.1.0
+numpy>=1.26.0
+
+# ─── Prediction / ML ──────────────────────────────────────────────────────────
+scikit-learn>=1.4.0
+# Kronos foundation model (HuggingFace) — optional, heavy install
+# Uncomment if you want to run the real Kronos model (requires ~4GB disk + GPU/CPU):
+# torch>=2.2.0
+# transformers>=4.40.0
+# huggingface-hub>=0.22.0
+
+# ─── Prediction markets ───────────────────────────────────────────────────────
+# py-clob-client is installed directly from GitHub for Polymarket CLOB
+# Kalshi is accessed via direct REST calls (no SDK required for read-only)
+
+# ─── UI ───────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.22.0
+streamlit-autorefresh>=1.0.1
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+loguru>=0.7.2
+rich>=13.7.0
+python-dateutil>=2.9.0
+pytz>=2024.1
